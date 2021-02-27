@@ -1,13 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Montserrat', sans-serif;
+    
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar-brand{
+  font-size: 1.5rem  !important;
+  color:#565387 !important;
+  font-weight: bold;
+}
+
+.navbar{
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+
+.navbar a{
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.navbar a:hover{
+   color:#565387 !important;
+}
+
+.menu_active{
+  color: #black;
+  border-bottom: 1px solid #565387;
+}
+
+.brand-name{
+  color:#565387;
+}
+
+.heading h1{
+  font-size: 2.2rem;
+  margin-top: 10rem;
+  
+}
+
+.heading h2{
+  font-size: 1.2rem;
+}
+
+.heading a{
+  text-decoration: none;
+  
+}
+
+.heading Button{
+  height:2.5rem;
+  width:10.5rem;
+  border:1px solid #565387;
+  border-radius: 1.5rem;
+  box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.3);
+  outline: none;
+}
+
+.heading Button:hover{
+  background-color: #565387;
+  color:white;
+  
+}
+
+.heading a:hover{
+  color:white;
+}
+
+.card{
+  margin-top: 5rem;
+  width:fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 35px -5px rgba(0,0,0,0.3);
+  border-radius: 1.5rem;
+}
+
+.card img{
+  width:7rem;
+  height:7rem;
+  border-radius: 7rem;
+  margin-top: 1.2rem;
+
+}
+
+.card h5{
+  font-weight: bold;
+}
+
+.card p{
+  font-size: 0.9rem;
+}
+
+.card-body a{
+   text-decoration: none;
+   
+}
+
+.card-body Button{
+  height:2.5rem;
+  width:9.5rem;
+  border:1px solid #565387;
+  border-radius: 1.5rem;
+  color:#565387;
+}
+
+.card-body Button:hover{
+  background-color: #565387;
+  color:white;
+
+}
+
+.card-body i{
+  margin-right: 0.3rem;
+}
+
+.card1{
+  display: inline-block;
+  margin-right:8rem;
+  margin-top: 5rem;
+  position:relative;
+  left:20rem;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:786px){
+ 
+ .heading h1{
+   font-size: 1.4rem;
+  
+   margin-top: -2rem;
+ }
+
+ .heading h2{
+   font-size: 1rem;
+   font-weight: 500;
+ }
+ .brand-name{
+   font-weight: bold;
+ }
+ .heading Button{
+   margin-top: 1.5rem;
+ }
+
+ .main_branch{
+   display:flex;
+   flex-direction: column-reverse;
+ }
+
+ .header_img img{
+   margin-top: 2.2rem;
+ }
+
+ .card1{
+   
+   display: flex;
+   position: relative;
+   left: 4.5rem;
+   top:-5rem;
+ }
+ 
+ 
 }
